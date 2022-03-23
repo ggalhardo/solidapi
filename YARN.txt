@@ -1,0 +1,26 @@
+Migrando de NPM para Yarn? Conheça os principais comandos Yarn e seus equivalentes em NPM
+Como dito acima, o yarn e o npm são bem parecidos e seu uso não difere tanto. Na maioria das vezes, o que você modificará é o começo do comando, que, ao invés de ser npm, será yarn. Aqui separamos alguns exemplos dos principais comandos para mostrar a você:
+
+NPM	YARN
+npm install	yarn
+npm run		yarn run
+npm init	yarn init
+npm cache clean	yarn cache clean
+npm shrinkwrap	yarn generate-lock-entry
+
+Agora, vamos entender brevemente qual a função de cada comando yarn posto na tabela acima:
+
+YARN:
+O comando yarn serve para atualizar as dependências do projeto. Vamos supor que você clonou o projeto de um repositório no gitHub. Para conseguir rodar o projeto, você precisará baixar as dependências, pois geralmente quando o desenvolvedor ou desenvolvedora sobe seu código para o repositório remoto, ele ignora a node_modules, e, para baixá-la em sua máquina, basta usar o comando yarn.
+
+Yarn run:
+Depois de clonar o projeto e baixar as dependências, você pode utilizar o comando yarn run para iniciar o projeto e ver ele “funcionando” localmente.
+
+Yarn init:
+É utilizado para criar o arquivo package.json.
+
+Yarn cache clean:
+O comando yarn cache clean é utilizado para limpar o cache da aplicação.
+
+Yarn generate-lock-entry
+É utilizado para criar o arquivo yarn.lock.
