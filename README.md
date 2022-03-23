@@ -1,6 +1,6 @@
 # solidapi
 NODE API REST usando conceitos de SOLID
-
+<code>
 Request: POST https://3333-ggalhardo-solidapi-2yqh7yphiyq.ws-us38.gitpod.io/users
 Body: JSON
 {
@@ -16,3 +16,4 @@ OU
 {
 	"message": "User already exists."
 }
+</code>
